@@ -10,9 +10,10 @@
 	</parent>
 	<groupId>com.feedbeforeflight</groupId>
 	<artifactId>RabbitOne</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>RabbitOne</name>
 	<description>RabbitMQ to 1C middleware</description>
+	<packaging>jar</packaging>
 
 	<properties>
 		<java.version>15</java.version>
@@ -22,6 +23,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web-services</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
