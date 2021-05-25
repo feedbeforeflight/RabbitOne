@@ -17,6 +17,7 @@ public class RabbitOneController {
 
     @Value("${app.version}")
     private String version;
+
     public String getVersion() {
         return version;
     }
